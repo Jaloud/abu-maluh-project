@@ -18,7 +18,7 @@ export default function AudioAnalysisPage() {
       title: "Abu Maluh: Family Travel Segment",
       description:
         "A 3-minute excerpt featuring Abu Maluh discussing travel between Saudi cities",
-      audioUrl: "/audio/abu-maluh-family-travel.mp3",
+      audioUrl: "/audio/cd1.mp3",
     },
     {
       id: "segment2",
