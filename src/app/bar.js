@@ -27,13 +27,7 @@ export default function SiteHeader() {
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href="/historical-context" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Historical Context
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
+\
             <NavigationMenuItem>
               <Link href="/audio-analysis" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -45,13 +39,6 @@ export default function SiteHeader() {
               <Link href="/visualizations" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Visualizations
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link href="/research-paper" legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Research Paper
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
