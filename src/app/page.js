@@ -19,7 +19,7 @@ export default function Home() {
               Abu Maluh: Cultural Preservation in Saudi Arabia
             </h1>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Exploring how Abu Maluh cassettes functioned as cultural
+              Exploring how Abu Maluh CDs functioned as cultural
               preservation during Saudi Arabia's period of rapid modernization
               and centralization.
             </p>
@@ -56,14 +56,14 @@ export default function Home() {
         <div className="flex flex-col gap-6">
           <Card>
             <CardHeader>
-              <CardTitle>What Were Abu Maluh Cassettes?</CardTitle>
+              <CardTitle>What Were Abu Maluh CDs?</CardTitle>
               <CardDescription>
                 A cultural phenomenon from Hail region
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p>
-                Abu Maluh cassettes emerged in the late 2000s as a series of
+                Abu Maluh CDs emerged in the late 2000s as a series of
                 comedic audio sketches featuring recurring characters speaking
                 in the distinct dialect of the Hail region. Created as an
                 alternative to music (which many families avoided for religious
@@ -83,7 +83,7 @@ export default function Home() {
             <CardContent>
               <p>
                 As Saudi Arabia underwent rapid modernization and cultural
-                standardization, these cassettes preserved regional dialects,
+                standardization, these CDs preserved regional dialects,
                 storytelling traditions, and cultural references unique to the
                 Hail region. This project examines how this entertainment medium
                 served as an unintentional but effective form of cultural

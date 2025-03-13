@@ -1,4 +1,4 @@
-"use client";
+CDs"use client";
 import dynamic from 'next/dynamic'; // Import dynamic from Next.js
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
