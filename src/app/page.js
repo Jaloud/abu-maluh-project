@@ -28,11 +28,7 @@ export default function Home() {
             <Link href="/audio-analysis">
               <Button size="lg">Explore Audio Analysis</Button>
             </Link>
-            <Link href="/research-paper">
-              <Button size="lg" variant="outline">
-                Read Research Paper
-              </Button>
-            </Link>
+  
           </div>
         </div>
       </section>
