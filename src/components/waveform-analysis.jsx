@@ -70,68 +70,9 @@ export default function WaveformAnalysis() {
             </div>
           </TabsContent>
 
-          <TabsContent value="dialogue" className="space-y-4">
-            <div className="relative h-[300px] w-full">
-              <Image
-                src="/images/waveform-dialogue.png"
-                alt="Dialogue waveform analysis"
-                fill
-                className="object-contain"
-              />
-            </div>
-            <div className="prose max-w-none">
-              <h3>Character Dialogue Patterns</h3>
-              <p>
-                This section highlights a 3-minute dialogue exchange between the
-                main characters, Abu Maluh and Umm Maluh. Several distinctive
-                vocal features are evident:
-              </p>
-              <ul>
-                <li>
-                  <strong>Character vocal distinction:</strong> The male
-                  character (Abu Maluh) shows consistently lower frequency
-                  patterns with occasional amplitude spikes during comedic
-                  punchlines.
-                </li>
-                <li>
-                  <strong>Regional dialect markers:</strong> The elongated vowel
-                  sounds characteristic of the Hail regional dialect create
-                  distinctive waveform patterns, particularly in the 1:30-2:15
-                  segment.
-                </li>
-                <li>
-                  <strong>Call-and-response pattern:</strong> The conversational
-                  structure follows traditional storytelling patterns found in
-                  Hail regional oral traditions.
-                </li>
-              </ul>
-            </div>
-          </TabsContent>
-
           <TabsContent value="comparative" className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="relative h-[200px]">
-                <Image
-                  src="/images/waveform-abu-maluh.png"
-                  alt="Abu Maluh CD waveform"
-                  fill
-                  className="object-contain"
-                />
-                <p className="text-sm text-center mt-2">
-                  Abu Maluh CD (2007)
-                </p>
-              </div>
-              <div className="relative h-[200px]">
-                <Image
-                  src="/images/waveform-national-radio.png"
-                  alt="National Saudi radio waveform"
-                  fill
-                  className="object-contain"
-                />
-                <p className="text-sm text-center mt-2">
-                  National Saudi radio drama (2005)
-                </p>
-              </div>
+       
             </div>
             <div className="prose max-w-none">
               <h3>Comparative Analysis</h3>
