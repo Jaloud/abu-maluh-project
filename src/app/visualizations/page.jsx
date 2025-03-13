@@ -1,4 +1,4 @@
-CDs"use client";
+"use client";
 import dynamic from 'next/dynamic'; // Import dynamic from Next.js
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -24,8 +24,8 @@ import {
 import { Separator } from "@/components/ui/separator";
 
 export default function VisualizationsPage() {
-  // Metadata for cassette volumes
-  const cassetteMetadata = [
+  // Metadata for CD volumes
+  const CDMetadata = [
     {
       volume: "Volume 1",
       year: 2006,
@@ -143,7 +143,7 @@ export default function VisualizationsPage() {
         <h1 className="text-3xl font-bold mb-2">Data Visualizations</h1>
         <p className="text-muted-foreground">
           Exploring the geographic distribution, historical context, and
-          metadata of Abu Maluh cassettes
+          metadata of Abu Maluh CDs
         </p>
       </div>
 
@@ -151,7 +151,7 @@ export default function VisualizationsPage() {
         <TabsList className="grid w-full grid-cols-3">
           <TabsTrigger value="geographic">Geographic Distribution</TabsTrigger>
           <TabsTrigger value="timeline">Historical Timeline</TabsTrigger>
-          <TabsTrigger value="metadata">Cassette Metadata</TabsTrigger>
+          <TabsTrigger value="metadata">CD Metadata</TabsTrigger>
         </TabsList>
 
         <TabsContent value="geographic" className="mt-6">
@@ -165,16 +165,16 @@ export default function VisualizationsPage() {
         <TabsContent value="metadata" className="mt-6 space-y-8">
           <Card>
             <CardHeader>
-              <CardTitle>Cassette Series Metadata Visualization</CardTitle>
+              <CardTitle>CD Series Metadata Visualization</CardTitle>
               <CardDescription>
-                Key metrics across the Abu Maluh cassette series (2006-2011)
+                Key metrics across the Abu Maluh CD series (2006-2011)
               </CardDescription>
             </CardHeader>
             <CardContent>
               <div className="h-[400px] w-full">
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart
-                    data={cassetteMetadata}
+                    data={CDMetadata}
                     margin={{ top: 20, right: 30, left: 20, bottom: 70 }}
                   >
                     <CartesianGrid strokeDasharray="3 3" />
@@ -238,7 +238,7 @@ export default function VisualizationsPage() {
                     <strong>Sales Decline:</strong> The gradual sales decline
                     starting with Volume 8 corresponds with increasing
                     smartphone penetration in Saudi Arabia, suggesting
-                    technological displacement of cassette media.
+                    technological displacement of CD media.
                   </li>
                 </ul>
               </div>
@@ -280,7 +280,7 @@ export default function VisualizationsPage() {
                   The sales distribution data reveals a clear pattern of
                   regional concentration with diffusion outward from the core
                   Hail region. With 32% of sales occurring in the Hail region
-                  itself, the cassettes demonstrate strong regional attachment,
+                  itself, the CDs demonstrate strong regional attachment,
                   but their appeal across other regions (particularly Qassim and
                   Riyadh) indicates broader cultural resonance beyond their
                   region of origin.
@@ -288,10 +288,10 @@ export default function VisualizationsPage() {
                 <p>
                   The strong sales in the Eastern Province (15%) correspond with
                   the Hail-Eastern Province travel corridor, suggesting that the
-                  cassettes' popularity was directly linked to highway
+                  CDs' popularity was directly linked to highway
                   infrastructure and travel patterns. These regional data
                   patterns align with the geographic mapping to demonstrate how
-                  the cassettes' cultural impact followed specific
+                  the CDs' cultural impact followed specific
                   infrastructure networks rather than spreading uniformly across
                   the country.
                 </p>

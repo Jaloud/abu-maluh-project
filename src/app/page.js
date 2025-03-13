@@ -101,7 +101,7 @@ export default function Home() {
             {
               title: "Audio Analysis",
               description:
-                "Waveform analysis and transcription of cassette content",
+                "Waveform analysis and transcription of CD content",
               link: "/audio-analysis",
             },
             {

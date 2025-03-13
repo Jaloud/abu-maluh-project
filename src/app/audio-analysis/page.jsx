@@ -1,4 +1,4 @@
-CDsimport { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   Card,
   CardContent,
@@ -20,20 +20,6 @@ export default function AudioAnalysisPage() {
         "A 3-minute excerpt featuring Abu Maluh discussing travel between Saudi cities",
       audioUrl: "/audio/cd1.mp3",
     },
-    {
-      id: "segment2",
-      title: "Wedding Preparations Sketch",
-      description:
-        "Comedy sketch about traditional wedding preparations in Hail region",
-      audioUrl: "/audio/abu-maluh-wedding-preparations.mp3",
-    },
-    {
-      id: "segment3",
-      title: "Market Day Conversation",
-      description:
-        "Exchange between characters at a traditional market in Hail",
-      audioUrl: "/audio/abu-maluh-market-day.mp3",
-    },
   ];
 
   return (
@@ -42,7 +28,7 @@ export default function AudioAnalysisPage() {
         <h1 className="text-3xl font-bold mb-2">Audio Analysis</h1>
         <p className="text-muted-foreground">
           Examining the audio characteristics and transcription of Abu Maluh
-          cassettes
+          CD's
         </p>
       </div>
 
@@ -58,9 +44,9 @@ export default function AudioAnalysisPage() {
         <TabsContent value="listen" className="space-y-6">
           <Card>
             <CardHeader>
-              <CardTitle>Cassette Audio Samples</CardTitle>
+              <CardTitle>CD Audio Samples</CardTitle>
               <CardDescription>
-                Listen to selected excerpts from Abu Maluh cassettes that
+                Listen to selected excerpts from Abu Maluh CD's that
                 demonstrate regional dialect, storytelling patterns, and
                 cultural references
               </CardDescription>
@@ -79,8 +65,8 @@ export default function AudioAnalysisPage() {
                 <h3>About These Recordings</h3>
                 <p>
                   These audio segments were digitized from original Abu Maluh
-                  cassette tapes produced between 2007-2010. The recordings
-                  feature the comedic sketches that made these cassettes popular
+                  CD tapes produced between 2007-2010. The recordings
+                  feature the comedic sketches that made these CD's popular
                   throughout the Hail, Al Qassim, and Riyadh regions of Saudi
                   Arabia.
                 </p>

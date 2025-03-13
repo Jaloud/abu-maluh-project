@@ -1,4 +1,4 @@
-CDsCDs"use client";
+"use client";
 
 import { useEffect, useState } from "react";
 import {
@@ -97,7 +97,7 @@ export default function DetailedTimeline() {
       endDay: 31,
       displayDate: "1990-1993",
       headline: "Highway Rest Area Development Program",
-      text: "The government initiated a program to develop rest areas (istirahat) along major highways, creating formal spaces for travelers to rest, pray, and eat during long journeys. These became important distribution points for cassette tapes.",
+      text: "The government initiated a program to develop rest areas (istirahat) along major highways, creating formal spaces for travelers to rest, pray, and eat during long journeys. These became important distribution points for CD tapes.",
       media: "/images/timeline/highway-rest-areas.jpg",
       mediaCredit: "Saudi Tourism Authority",
       mediaCaption: "Highway rest area with prayer facilities and restaurants",
@@ -133,7 +133,7 @@ export default function DetailedTimeline() {
       endDay: 10,
       displayDate: "May 10, 2000",
       headline: "Completion of the Highway Linking Hail to Eastern Province",
-      text: "This critical infrastructure project reduced travel time between Hail and Dammam from more than 20 hours to approximately 11 hours, creating the exact conditions for extended car journeys that would later fuel demand for Abu Maluh cassettes.",
+      text: "This critical infrastructure project reduced travel time between Hail and Dammam from more than 20 hours to approximately 11 hours, creating the exact conditions for extended car journeys that would later fuel demand for Abu Maluh CDs.",
       media: "/images/timeline/hail-eastern-province-highway.jpg",
       mediaCredit: "Royal Commission for Jubail and Yanbu",
       mediaCaption: "Highway connecting Hail region to Eastern Province",
@@ -168,11 +168,11 @@ export default function DetailedTimeline() {
       endMonth: 4,
       endDay: 20,
       displayDate: "April 20, 2006",
-      headline: "First Abu Maluh Cassette Released",
-      text: "As the road network reached maturity, the first Abu Maluh cassette was released, marketed specifically for long car journeys between major Saudi cities.",
-      media: "/images/timeline/first-abu-maluh-cassette.jpg",
+      headline: "First Abu Maluh CD Released",
+      text: "As the road network reached maturity, the first Abu Maluh CD was released, marketed specifically for long car journeys between major Saudi cities.",
+      media: "/images/timeline/first-abu-maluh-CD.jpg",
       mediaCredit: "Private Collection",
-      mediaCaption: "Original Abu Maluh cassette, Volume 1",
+      mediaCaption: "Original Abu Maluh CD, Volume 1",
       type: "event",
       group: "Abu Maluh",
       background: "#E6F7FF",
@@ -186,12 +186,12 @@ export default function DetailedTimeline() {
       endMonth: 12,
       endDay: 31,
       displayDate: "2007-2010",
-      headline: "Peak Popularity of Abu Maluh Cassettes",
-      text: "As highway infrastructure matured and intercity travel became routine for many Saudis, Abu Maluh cassettes reached peak popularity, with distribution networks following the major highway corridors.",
+      headline: "Peak Popularity of Abu Maluh CDs",
+      text: "As highway infrastructure matured and intercity travel became routine for many Saudis, Abu Maluh CDs reached peak popularity, with distribution networks following the major highway corridors.",
       media: "/images/timeline/abu-maluh-popularity.jpg",
       mediaCredit: "Cultural Heritage Foundation",
       mediaCaption:
-        "Cassette shop at a highway rest area displaying Abu Maluh collection",
+        "CD shop at a highway rest area displaying Abu Maluh collection",
       type: "event",
       group: "Abu Maluh",
       background: "#E6F7FF",
@@ -206,7 +206,7 @@ export default function DetailedTimeline() {
       endDay: 1,
       displayDate: "June 2012",
       headline: "Smartphone Navigation Apps Transform Travel",
-      text: "The widespread adoption of smartphone navigation apps changed how Saudis experienced road trips, coinciding with the beginning of the decline in cassette media consumption.",
+      text: "The widespread adoption of smartphone navigation apps changed how Saudis experienced road trips, coinciding with the beginning of the decline in CD media consumption.",
       media: "/images/timeline/smartphone-navigation.jpg",
       mediaCredit: "Technology Review Arabia",
       mediaCaption: "Navigation app showing route from Riyadh to Hail",
@@ -251,7 +251,7 @@ export default function DetailedTimeline() {
         <CardDescription>
           This timeline explores the development of major highways in Saudi
           Arabia that facilitated long road trips and the spread of Abu Maluh
-          cassettes
+          CDs
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -362,7 +362,7 @@ export default function DetailedTimeline() {
                 between infrastructure development and cultural expression in
                 Saudi Arabia. The systematic development of Saudi Arabia's
                 highway network between 1961 and 2000 created the necessary
-                conditions for Abu Maluh cassettes to emerge as a cultural
+                conditions for Abu Maluh CDs to emerge as a cultural
                 phenomenon. Several key patterns emerge from this historical
                 context:
               </p>
@@ -383,7 +383,7 @@ export default function DetailedTimeline() {
                 in 2000 created a specific cultural context—the "11-hour
                 journey"—that became central to the Abu Maluh experience. This
                 duration was long enough to require substantial entertainment
-                but short enough to be completed in a single day. The cassettes,
+                but short enough to be completed in a single day. The CDs,
                 typically 45-60 minutes in length, were perfectly suited to this
                 travel context.
               </p>
@@ -392,7 +392,7 @@ export default function DetailedTimeline() {
               <p>
                 The Highway Rest Area Development Program (1990-1993) created
                 physical spaces that became natural distribution points for
-                cassette tapes. These rest areas, where travelers would stop for
+                CD tapes. These rest areas, where travelers would stop for
                 prayer, food, and rest, typically featured small shops selling
                 entertainment products for the remainder of the journey. This
                 physical distribution network followed the exact routes of the
@@ -404,8 +404,8 @@ export default function DetailedTimeline() {
                 The timeline also reveals how quickly technological changes can
                 transform cultural practices. The period between highway
                 completion (2000) and digital technology dominance (2012-2015)
-                created a brief window where cassette tapes could flourish as a
-                medium. This transitional period allowed Abu Maluh cassettes to
+                created a brief window where CD tapes could flourish as a
+                medium. This transitional period allowed Abu Maluh CDs to
                 serve their cultural preservation role before being overtaken by
                 digital media formats.
               </p>

@@ -1,4 +1,4 @@
-CDs"use client";
+"use client";
 
 import Image from "next/image";
 import {
@@ -16,7 +16,7 @@ export default function WaveformAnalysis() {
       <CardHeader>
         <CardTitle>Waveform Analysis</CardTitle>
         <CardDescription>
-          Analyzing audio characteristics of Abu Maluh cassettes
+          Analyzing audio characteristics of Abu Maluh CDs
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -31,16 +31,16 @@ export default function WaveformAnalysis() {
             <div className="relative h-[300px] w-full">
               <Image
                 src="/images/waveform-full.png"
-                alt="Full waveform of Abu Maluh cassette"
+                alt="Full waveform of Abu Maluh CD"
                 fill
                 className="object-contain"
               />
             </div>
             <div className="prose max-w-none">
-              <h3>Full Cassette Waveform Analysis</h3>
+              <h3>Full CD Waveform Analysis</h3>
               <p>
                 The waveform above represents a 45-minute side of an Abu Maluh
-                cassette. Several distinctive patterns emerge when analyzing the
+                CD. Several distinctive patterns emerge when analyzing the
                 audio characteristics:
               </p>
               <ul>
@@ -51,7 +51,7 @@ export default function WaveformAnalysis() {
                 </li>
                 <li>
                   <strong>No musical elements:</strong> Unlike contemporary
-                  entertainment, these cassettes contain no musical interludes
+                  entertainment, these CDs contain no musical interludes
                   or background scoring, reflecting their positioning as
                   permissible entertainment for religious families avoiding
                   music.
@@ -113,12 +113,12 @@ export default function WaveformAnalysis() {
               <div className="relative h-[200px]">
                 <Image
                   src="/images/waveform-abu-maluh.png"
-                  alt="Abu Maluh cassette waveform"
+                  alt="Abu Maluh CD waveform"
                   fill
                   className="object-contain"
                 />
                 <p className="text-sm text-center mt-2">
-                  Abu Maluh cassette (2007)
+                  Abu Maluh CD (2007)
                 </p>
               </div>
               <div className="relative h-[200px]">
@@ -136,7 +136,7 @@ export default function WaveformAnalysis() {
             <div className="prose max-w-none">
               <h3>Comparative Analysis</h3>
               <p>
-                Comparing Abu Maluh cassettes with contemporary national Saudi
+                Comparing Abu Maluh CDs with contemporary national Saudi
                 radio programming reveals significant differences:
               </p>
               <ul>
@@ -160,7 +160,7 @@ export default function WaveformAnalysis() {
                 </li>
               </ul>
               <p>
-                These differences highlight how Abu Maluh cassettes preserved
+                These differences highlight how Abu Maluh CDs preserved
                 regional linguistic and cultural elements during a period when
                 Saudi media was becoming increasingly standardized.
               </p>

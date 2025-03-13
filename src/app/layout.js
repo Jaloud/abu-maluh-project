@@ -11,7 +11,7 @@ const fontSans = FontSans({
 export const metadata = {
   title: "Abu Maluh: Cultural Preservation in Saudi Arabia",
   description:
-    "Exploring how Abu Maluh cassettes functioned as cultural preservation during Saudi Arabia's period of rapid modernization",
+    "Exploring how Abu Maluh CDs functioned as cultural preservation during Saudi Arabia's period of rapid modernization",
 };
 
 export default function RootLayout({ children }) {

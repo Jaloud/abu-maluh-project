@@ -1,4 +1,4 @@
-CDs"use client";
+"use client";
 
 import { useEffect, useState } from "react";
 import {
@@ -32,14 +32,14 @@ export default function GisMap() {
     });
   }, []);
 
-  // Data for the cassettes' geographical distribution
+  // Data for the CDs' geographical distribution
   const distributionData = [
     {
       city: "Hail",
       coordinates: [27.5114, 41.7208],
       popularity: 90, // 0-100 scale of popularity
       description:
-        "Birthplace of Abu Maluh cassettes and primary production location",
+        "Birthplace of Abu Maluh CDs and primary production location",
     },
     {
       city: "Buraydah (Qassim)",
@@ -85,7 +85,7 @@ export default function GisMap() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Geographic Distribution of Abu Maluh Cassettes</CardTitle>
+        <CardTitle>Geographic Distribution of Abu Maluh CDs</CardTitle>
         <CardDescription>
           Regional popularity and distribution patterns across Saudi Arabia
           (2007-2010)
@@ -138,7 +138,7 @@ export default function GisMap() {
           <h3>Geographic Significance</h3>
           <p>
             The map above illustrates the geographic distribution and relative
-            popularity of Abu Maluh cassettes across Saudi Arabia during their
+            popularity of Abu Maluh CDs across Saudi Arabia during their
             peak period (2007-2010). Several key patterns emerge:
           </p>
           <ul>
@@ -146,12 +146,12 @@ export default function GisMap() {
               <strong>Origin and Highest Popularity:</strong> Hail region shows
               the highest concentration, as it was both the production center
               and the region whose dialect and cultural references were featured
-              in the cassettes.
+              in the CDs.
             </li>
             <li>
               <strong>Highway Corridor Distribution:</strong> Popularity spreads
               along major highway routes, particularly the Riyadh-Qassim-Hail
-              corridor, reflecting how these cassettes were primarily consumed
+              corridor, reflecting how these CDs were primarily consumed
               during long road trips.
             </li>
             <li>
@@ -162,7 +162,7 @@ export default function GisMap() {
             </li>
           </ul>
           <p>
-            This geographic pattern demonstrates how the cassettes served as
+            This geographic pattern demonstrates how the CDs served as
             cultural preservation tools not only temporally (preserving
             traditional linguistic features during modernization) but also
             spatially (maintaining regional identity for displaced communities).
