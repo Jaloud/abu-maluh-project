@@ -1,8 +1,9 @@
 "use client";
-
+import dynamic from 'next/dynamic'; // Import dynamic from Next.js
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import GisMap from "@/components/gis-map";
-import Timeline from "@/components/timeline";
+
+const GisMap = dynamic(() => import('@/components/gis-map'), { ssr: false });
+const Timeline = dynamic(() => import('@/components/timeline'), { ssr: false });
 import {
   Card,
   CardContent,
