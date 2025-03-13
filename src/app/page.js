@@ -103,12 +103,6 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {[
             {
-              title: "Historical Context",
-              description:
-                "The social and political backdrop of Saudi modernization",
-              link: "/historical-context",
-            },
-            {
               title: "Audio Analysis",
               description:
                 "Waveform analysis and transcription of cassette content",
@@ -119,17 +113,6 @@ export default function Home() {
               description:
                 "Timeline and geographic distribution of the phenomenon",
               link: "/visualizations",
-            },
-            {
-              title: "Research Paper",
-              description:
-                "1000-word scholarly analysis of cultural significance",
-              link: "/research-paper",
-            },
-            {
-              title: "Bibliography",
-              description: "Annotated sources and academic references",
-              link: "/bibliography",
             },
             {
               title: "About",
