@@ -15,10 +15,10 @@ export default function AudioAnalysisPage() {
   const audioSamples = [
     {
       id: "segment1",
-      title: "Abu Maluh: Family Travel Segment",
+      title: "Abu Maluh: Car Raffle Sketch",
       description:
-        "A 3-minute excerpt featuring Abu Maluh discussing travel between Saudi cities",
-      audioUrl: "/audio/cd1.mp3",
+        "A 5-minute section from the CD, featuring the Car raffle sketch from the first CD",
+      audioUrl: "/audio/cd1_snippet.mp3",
     },
   ];
 
@@ -44,11 +44,9 @@ export default function AudioAnalysisPage() {
         <TabsContent value="listen" className="space-y-6">
           <Card>
             <CardHeader>
-              <CardTitle>CD Audio Samples</CardTitle>
+              <CardTitle> Audio Samples</CardTitle>
               <CardDescription>
-                Listen to selected excerpts from Abu Maluh CD's that
-                demonstrate regional dialect, storytelling patterns, and
-                cultural references
+                Listen to selected excerpts from Abu Maluh CD's.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -60,38 +58,36 @@ export default function AudioAnalysisPage() {
                   description={sample.description}
                 />
               ))}
-
-              <div className="prose max-w-none mt-6">
-                <h3>About These Recordings</h3>
-                <p>
-                  These audio segments were digitized from original Abu Maluh
-                  CD tapes produced between 2007-2010. The recordings
-                  feature the comedic sketches that made these CD's popular
-                  throughout the Hail, Al Qassim, and Riyadh regions of Saudi
-                  Arabia.
+              <div className="prose max-w-none space-y-4 p-4 rounded-lg bg-muted/30 text-left">
+                <h3 className="text-xl font-semibold tracking-tight mb-4 text-left">
+                  About This Recording
+                </h3>
+                <p className="leading-relaxed text-left">
+                  This audio segment is taken from the opening section of <strong>Abu Maluh's
+                  first CD</strong>. It introduces several key characters and establishes the
+                  major plot lines that run throughout the series. The sketch sets
+                  the distinctive comedic tone that made these CDs so popular - 
+                  blending <em>sharp social satire</em> with <em>sarcastic commentary</em> on everyday
+                  life in Hail.
                 </p>
-                <p>
-                  The dialogue is performed in the distinctive Hail regional
-                  dialect, which differs significantly from the standardized
-                  Arabic taught in schools and used in national media. Listen
-                  for:
+                <p className="leading-relaxed text-left">
+                  Through clever wordplay and exaggerated situations, the characters
+                  poke fun at local customs and modern life while showcasing the
+                  unique Hail dialect. The segment features:
                 </p>
-                <ul>
+                <ul className="text-left list-disc pl-6 space-y-2">
                   <li>
-                    Distinctive pronunciation of consonants (especially the "g"
-                    and "ch" sounds)
+                    Introduction of main recurring characters and their personalities
                   </li>
                   <li>
-                    Unique regional vocabulary words not found in Standard
-                    Arabic
+                    Setup of ongoing storylines about car raffles and local schemes
                   </li>
                   <li>
-                    Regional idioms and expressions referencing local cultural
-                    practices
+                    Satirical takes on regional social dynamics and relationships
                   </li>
                   <li>
-                    Rhythmic speech patterns characteristic of Hail storytelling
-                    traditions
+                    The signature mix of sarcasm, wit and cultural commentary that
+                    defined the series
                   </li>
                 </ul>
               </div>
