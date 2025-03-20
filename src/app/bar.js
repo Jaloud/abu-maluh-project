@@ -27,7 +27,7 @@ export default function SiteHeader() {
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
-\
+
             <NavigationMenuItem>
               <Link href="/audio-analysis" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>

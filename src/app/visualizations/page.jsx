@@ -3,18 +3,9 @@ import dynamic from "next/dynamic"; // Import dynamic from Next.js
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const GisMap = dynamic(() => import("@/components/gis-map"), { ssr: false });
-const GoogleTrendsChart = dynamic(
-  () => import("@/components/GoogleTrendsChart"),
-  { ssr: false }
-);
-
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+const SimpleIframe = dynamic(() => import("@/components/SimpleIframe"), {
+  ssr: false,
+});
 
 export default function VisualizationsPage() {
   return (
@@ -26,8 +17,9 @@ export default function VisualizationsPage() {
           CDs
         </p>
       </div>
+      <SimpleIframe />
 
-      <Tabs defaultValue="geographic">
+      {/* <Tabs defaultValue="geographic">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="geographic">Geographic Distribution</TabsTrigger>
           <TabsTrigger value="searchtrends">Search Trends</TabsTrigger>
@@ -38,9 +30,9 @@ export default function VisualizationsPage() {
         </TabsContent>
 
         <TabsContent value="searchtrends" className="mt-6">
-          <GoogleTrendsChart />
+          <SimpleIframe />
         </TabsContent>
-      </Tabs>
+      </Tabs> */}
     </div>
   );
 }

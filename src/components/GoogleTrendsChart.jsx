@@ -1,4 +1,6 @@
 "use client";
+import Script from "next/script";
+import { useEffect, useRef } from "react";
 
 import {
   Card,
@@ -9,6 +11,44 @@ import {
 } from "@/components/ui/card";
 
 export default function GoogleTrendsChart() {
+  const trendsRef = useRef(null);
+
+  useEffect(() => {
+    // Create a trends object only after the script has loaded
+    const loadTrends = () => {
+      if (window.google && window.google.trends && trendsRef.current) {
+        const trends = new google.trends.embed.searchWidget(
+          {
+            comparisonItem: [
+              {
+                keyword: "ابو ملوح",
+                geo: "SA",
+                time: "2004-01-01 2025-03-20",
+              },
+            ],
+            category: 0,
+            property: "",
+          },
+          {
+            exploreQuery:
+              "date=all&geo=SA&q=%D8%A7%D8%A8%D9%88%20%D9%85%D9%84%D9%88%D8%AD&hl=en",
+            guestPath: "https://trends.google.com:443/trends/embed/",
+          }
+        );
+      }
+    };
+
+    // Add a listener for when the script loads
+    window.trends_callback = () => {
+      loadTrends();
+    };
+
+    return () => {
+      // Cleanup
+      delete window.trends_callback;
+    };
+  }, []);
+
   return (
     <Card className="w-full">
       <CardHeader>
@@ -19,16 +59,16 @@ export default function GoogleTrendsChart() {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <iframe
-          src="https://trends.google.com/trends/embed/explore/TIMESERIES?req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22%D8%A7%D8%A8%D9%88%20%D9%85%D9%84%D9%88%D8%AD%22%2C%22geo%22%3A%22SA%22%2C%22time%22%3A%222004-01-01%202025-03-20%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D&hl=en"
-          width="100%"
-          height="400"
-          frameBorder="0"
-          loading="lazy"
-          allow="fullscreen"
-          sandbox="allow-same-origin allow-scripts allow-forms"
-          title="Google Trends Chart - Abu Maluh Search Interest"
+        <Script
+          src="https://ssl.gstatic.com/trends_nrtr/4031_RC01/embed_loader.js"
+          strategy="afterInteractive"
+          onLoad={() => {
+            if (window.google && window.google.trends) {
+              window.trends_callback();
+            }
+          }}
         />
+        <div ref={trendsRef} className="w-full min-h-[400px]" />
 
         <div className="prose max-w-none mt-6">
           <h3>Analysis of Search Trends</h3>
