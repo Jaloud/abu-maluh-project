@@ -175,26 +175,28 @@ export default function Home() {
                     function: preserving regional linguistic patterns,
                     storytelling traditions, and cultural references that were
                     rapidly disappearing under the homogenizing forces of
-                    modernization. This essay argues that Abu Maluh CDs
-                    functioned as crucial vehicles for cultural preservation
-                    during a period of accelerated centralization and
-                    standardization, demonstrating how everyday entertainment
-                    media can serve as powerful repositories of regional
-                    identity even without explicit preservation intent.
+                    modernization. This project offers a window into that
+                    transformative period, examining how Abu Maluh CDs served as
+                    crucial vehicles for cultural preservation during a time of
+                    accelerated centralization and standardization. Through
+                    these recordings, we can see through the lens of everyday
+                    entertainment media how cultural preservation can be
+                    achieved, even when preservation wasn't their explicit
+                    intent.
                   </p>
 
                   <h3 className="text-2xl font-bold mt-12 mb-6">
                     The Context of Rapid Modernization
                   </h3>
                   <p>
-                    To understand the cultural significance of Abu Maluh CDs, we
-                    must first recognize the transformative context in which
-                    they emerged. Between 1980 and 2010, Saudi Arabia
+                    To understand the cultural significance of Abu Maluh CDs, I
+                    want to first recognize the transforamtive environment in
+                    which they emerged. Between 1980 and 2010, Saudi Arabia
                     experienced extraordinary modernization driven by oil
-                    wealth, with the government implementing ambitious
-                    infrastructure programs that fundamentally altered
-                    traditional patterns of life. As Madawi Al-Rasheed documents
-                    in <em>A History of Saudi Arabia</em>, this period saw the
+                    wealth, wealth, with the government implementing ambitious
+                    infrastructure programs that fundamentally altered the
+                    traditional way of life. As Madawi Al-Rasheed documents in{" "}
+                    <em>A History of Saudi Arabia</em>, this period saw the
                     centralization of administrative power, standardization of
                     education, and expansion of national media that increasingly
                     emphasized a homogenized Saudi identity over regional
@@ -202,22 +204,25 @@ export default function Home() {
                     connecting formerly isolated regions—particularly the
                     highways linking Hail to Qassim (1986) and Eastern Province
                     (2000)—facilitated unprecedented movement between regions
-                    while simultaneously exposing local cultures to
-                    standardizing influences.
+                    that allowed for migration to become common place while
+                    simultaneously exposing local cultures to standardizing
+                    influences.
                   </p>
 
                   <p>
                     This modernization brought undeniable benefits but also
-                    threatened regional cultural distinctiveness. Sebastian
-                    Maisel's research on the transformation of 'Unayza
+                    pushed towards more homoenngity, as the melting pot requires
+                    all to melt, so must the regional culters be assimilated.
+                    Sebastian Maisel's research on the transformation of 'Unayza
                     demonstrates how increased centralization led to the erosion
                     of local autonomy and cultural practices. Similarly, Mai
                     Yamani documents how the imposition of standardized national
                     identities challenged regional distinctiveness in the Hijaz
-                    region. The experience of Hail was similar—as national
-                    media, standardized education, and increased mobility
-                    introduced homogenizing influences, distinctive regional
-                    linguistic features, oral traditions, and cultural
+                    region. The experience of Hail was unique as it was more
+                    aligned with the intended national identity, but the
+                    standardized education, and increased mobility introduced
+                    increasing influences. More specifically the distinctive
+                    regional linguistic features, oral traditions, and cultural
                     references faced potential obsolescence.
                   </p>
 
@@ -225,18 +230,22 @@ export default function Home() {
                     Abu Maluh CDs as Linguistic Preservation
                   </h3>
                   <p>
-                    The waveform analysis of Abu Maluh recordings reveals a
-                    production that prioritizes voice, with its distinctive
-                    sonic patterns showcasing the unique prosody of the Hail
-                    dialect. The transcription analysis demonstrates the
-                    significant deviation of this dialect from Modern Standard
-                    Arabic, with a Word Error Rate of 54.8% when processed
-                    through standard Arabic speech recognition software. This
-                    high error rate quantifiably demonstrates the linguistic
-                    uniqueness preserved in these recordings. Key features
-                    preserved include regional vocabulary, distinctive feminine
-                    word endings, pronunciation variations, and emphasis markers
-                    that would otherwise be lost in standardized media.
+                    The analysis of Abu Maluh recordings reveals a production
+                    that prioritizes voice over music and effects, the voice
+                    being the most important element of the production. The
+                    transcription analysis demonstrates the significant
+                    deviation of this dialect from Modern Standard Arabic and
+                    even from the "white" arabic, in saudi we use the term white
+                    arabic to refer to the arabic that is used in the media and
+                    education it is the dialect that is used in the media and
+                    education, with a Word Error Rate of 54.8% when
+                    auto-transcribed through openAI whisper. This high error
+                    rate quantifiably demonstrates the linguistic uniqueness
+                    preserved in these recordings. Key features that were
+                    mis-transcribed include regional vocabulary, distinctive
+                    feminine word endings, pronunciation variations, and
+                    emphasis markers that would otherwise be lost in
+                    standardized media.
                   </p>
 
                   <p>
@@ -260,34 +269,37 @@ export default function Home() {
                   <p>
                     Beyond preserving dialect, Abu Maluh CDs maintained
                     traditional storytelling structures and cultural reference
-                    points specific to the Hail region. As Bruce Ingham
-                    documents in his research on the salfah as a narrative
-                    genre, oral historical narratives serve vital cultural
-                    functions in Arabian society. These CDs integrated elements
-                    of this storytelling tradition, particularly in their
-                    episodic structure, use of recurring characters, and
-                    incorporation of regionally significant settings and
-                    situations. The car raffle sketch from the first CD
-                    exemplifies this preservation, featuring not only regional
-                    dialect but also distinctly local conceptions of status,
-                    competition, and conflict resolution that reflect Hail's
-                    cultural patterns.
+                    points specific to the Hail region at that time. As Bruce
+                    Ingham documents in his research on the <i>salfah</i> as a
+                    narrative genre, oral historical narratives serve vital
+                    cultural functions in Arabian society. These CDs integrated
+                    elements of this storytelling tradition, particularly in
+                    their style and structure, use of cliff hangers in
+                    storytelling and "بهارات" a term used to describe
+                    emblishements when telling a story in order to keep the
+                    audience engaged, and incorporation of regionally
+                    significant settings and situations. The car raffle sketch
+                    from the first CD exemplifies this preservation, featuring
+                    not only regional dialect but also distinctly local
+                    conceptions of status, competition, and conflict resolution
+                    through a lose-lose scenario.
                   </p>
 
                   <p>
-                    Moreover, Abu Maluh CDs provided a platform for social
+                    In my view Abu Maluh CDs provided a platform for social
                     commentary that addressed the tensions between modernization
                     and tradition from a distinctly regional perspective. While
                     national media increasingly focused on homogenized cultural
                     narratives aligned with centralized authorities, these CDs
-                    offered satirical perspectives on changing social dynamics
-                    from a Hail-specific viewpoint. The transcription analysis
-                    reveals how dialogues frequently juxtapose traditional
-                    values with modern innovations, often using humor to
-                    navigate the contradictions that arose during this period of
-                    rapid change. This culturally-specific commentary preserved
-                    not just linguistic features but also regional attitudes and
-                    perspectives on modernization itself.
+                    offered satirical perspectives and highlighted the changing
+                    social dynamics from a Hail-specific viewpoint. A piont of
+                    view that hit home with many of the listeners. The dialogues
+                    frequently juxtapose traditional values with modern
+                    innovations, often using humor to navigate the
+                    contradictions that arose during this period of rapid
+                    change. This culturally-specific commentary preserved not
+                    just linguistic features but also perspectives on
+                    modernization itself.
                   </p>
 
                   <h3 className="text-2xl font-bold mt-12 mb-6">
